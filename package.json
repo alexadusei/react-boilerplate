@@ -7,7 +7,7 @@
       "dev": "webpack-dev-server",
       "production": "webpack -p"
   },
-  "author": "Alex Adusei <alex.adusei@gmail.com>",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "react": "^15.3.0",

@@ -10,9 +10,9 @@ Clone the repo using `npm install` to install all the dependecies to a *node_mod
 
 Use `npm run dev` to start the project on localhost. 
 
-## Depedencies
+## Dependencies
 
-Because there's a lot of overhead when it comes to dependecies with React, here's a concise description of what each depedency in this repo does. Separated between depedencies and devDependencies
+Because there's a lot of overhead when it comes to dependecies with React, here's a concise description of what each depedency in this repo does. Separated between dependencies and devDependencies
 
 ### Production Dependencies
 

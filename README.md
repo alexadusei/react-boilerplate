@@ -24,7 +24,7 @@ Because there's a lot of overhead when it comes to dependecies with React, here'
 ### Development Dependencies
 
 - **`babel-core`** A compiler for transpiling JSX to regular Javascript
-- **`babel-loader`** Babel configuration to tell this loader what type of transformations to make on our code
+- **`babel-loader`** Babel configuration to tell this loader what type of transformations to make on your code
 - **`babel-preset-react`** Describes the types of transformations we make (in this case, JSX)
 - **`babel-preset-es2015`** Describes the types of transformations we make (in this case, ES6)
 - **`babel-preset-stage-0`** Describes the stage of ES6 we want to preset (earliest features are from stage 0)

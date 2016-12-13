@@ -4,8 +4,8 @@
   "description": "React Boilerplate",
   "main": "index.js",
   "scripts": {
-      "dev": "webpack-dev-server",
-      "production": "webpack -p"
+    "dev": "webpack-dev-server",
+    "production": "webpack -p"
   },
   "author": "Alex Adusei <alex.adusei@gmail.com>",
   "license": "ISC",
@@ -17,8 +17,8 @@
   "devDependencies": {
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.11.1",
-    "babel-preset-es2015": "^6.13.2",
     "babel-preset-stage-0": "^6.5.0",
     "html-webpack-plugin": "^2.22.0",
     "webpack": "^1.13.1",

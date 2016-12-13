@@ -1,11 +1,13 @@
-var HtmlWebpackPlugin = require('html-webpack-plugin')
-var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
+import webpack from 'webpack'
+import HtmlWebpackPlugin from 'html-webpack-plugin'
+
+const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: __dirname + '/app/index.html',
   filename: 'index.html',
   inject: 'body',
 })
 
-module.exports = {
+export default {
   entry: [
     './app/index.js'
   ],
@@ -15,7 +17,7 @@ module.exports = {
   },
   module: {
     loaders: [
-      {test: /\.js$/, exclude: '/node_modules/', loader: 'babel-loader'}
+      {test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'},
     ]
   },
   plugins: [HtmlWebpackPluginConfig]
